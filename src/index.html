@@ -7,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/reset.css">
 
     <title>Codelandia</title>
@@ -19,11 +21,66 @@
             <h2>blog</h2>
         </div>
         <div class="search-bar">
-            <img class
-            ="icon-search" src="https://img.icons8.com/ios-glyphs/60/ffffff/search--v1.png"/>
-            <input type="text" id="search" placeholder="Pesquisar no blog" maxlength="60" minlength="10">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            <label for="search-input" class="sr-only">Pesquisar</label>
+            <input type="text" id="search-input" placeholder="Pesquisar no blog" maxlength="60" minlength="10">
         </div>
     </header>
+    <body>
+        <main>
+            <section class="news">
+                <article class="section">
+                    <div class="date">
+                        <h2>02 de jul. 2021</h2>
+                        <img src="https://img.icons8.com/material-outlined/24/4a90e2/like--v1.png"/>
+                    </div>
+                    <div class="content">
+                        <h1>Agora é oficial: o Windows 11 está vindo!</h1>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+                    </div>
+                </article>
+            </section>
+
+            <section class="news">
+                <article class="section">
+                    <div class="date">
+                        <h2>02 de jul. 2021</h2>
+                        <img src="https://img.icons8.com/material-outlined/24/4a90e2/like--v1.png"/>
+                    </div>
+                    <div class="content">
+                        <h1>Tim Berners-Lee vai leiloar código-fonte da web</h1>
+                        <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h2>
+                    </div>
+                </article>
+            </section>
+
+            <section class="news">
+                <article class="section">
+                    <div class="date">
+                        <h2>02 de jul. 2021</h2>
+                        <img src="https://img.icons8.com/material-outlined/24/4a90e2/like--v1.png"/>
+                    </div>
+                    <div class="content">
+                        <h1>Tem Firefox novo no pedaço e você vai querer migrar</h1>
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+                    </div>
+                </article>
+            </section>
+
+            <section class="news">
+                <article class="section">
+                    <div class="date">
+                        <h2>02 de jul. 2021</h2>
+                        <img src="https://img.icons8.com/material-outlined/24/4a90e2/like--v1.png"/>
+                    </div>
+                    <div class="content">
+                        <h1>Jhon McAfee, criador do antivírus McAfee, morre</h1>
+                        <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </h2>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
     
 </body>
 </html>

@@ -15,46 +15,79 @@
 .search-bar{
     display: flex;
     justify-content: center;
+    width: auto;
+    
+    background-color: transparent;
 }
 
-#search{
-    width: 50%;
-    height: 40px;
-    padding-right: 60px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    border-radius: 4px; 
+.search-bar button{
+    float: left;
+    width: 18px;
+    height: 42px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-size: 12px;
     border: none;
-    opacity: 0.2;
-    outline-color: #b6b6b6;
+    margin-top: 50px;
+    padding-right: 20px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
     
 }
-#search::-webkit-input-placeholder{
-    padding-left: 40px;
+
+
+.search-bar input{
+    width: 48%;
+    height: 40px;
+    padding-right: 70px;
+    margin-top: 50px;
+
+    margin-bottom: 30px;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    border: none;
+    
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    outline: none;
+    
+}
+
+
+
+.search-bar label{
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	
+	white-space: nowrap;
+	border-width: 0;
+}
+
+#search-input::-webkit-input-placeholder{
+
     font-family:'Lexend Deca', sans-serif;
-    color: #574ae8;
+    color: white;
     font-size: 13px;
+    opacity: .4;
 
 }
-#search::-moz-input-placeholder{
-    padding-left: 40px;
+#search-input::-moz-input-placeholder{
+
     font-family:'Lexend Deca', sans-serif;
-    color: #000;
+    color: white;
     font-size: 13px;
+    opacity: .4;
 }
-#search::-ms-input-placeholder{
-    padding-left: 40px;
+#search-input::-ms-input-placeholder{
+
     font-family:'Lexend Deca', sans-serif;
-    color: #574ae8;
+    color: white;
     font-size: 13px;
+    opacity: .4;
 }
 
-
-
-.icon-search{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 75%;
-    top: 95px;
-}
