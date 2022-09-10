@@ -4,4 +4,4 @@
 - HTML 5
 - CSS 3
 
-***Futuramente implementar JavaScript*** 
+** Adicionando Sass no projeto
