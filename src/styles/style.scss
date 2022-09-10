@@ -1,3 +1,6 @@
+@import "./reset.scss";
+@import "./header.scss"; 
+
 .news{
     width: 55%;
     box-sizing: border-box;
@@ -44,6 +47,6 @@
 }
 
 .content h2{
-    font-family: 'Inter', sans-serif;
+    font-family: second;
     opacity: .3;
 }
