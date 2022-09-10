@@ -1,6 +1,10 @@
 @import "./reset.scss";
 @import "./header.scss"; 
 
+
+$primary-font: 'Inter', sans-serif;
+$secondary-font: 'Lexend Deca', sans-serif;
+
 .news{
     width: 55%;
     box-sizing: border-box;
@@ -26,7 +30,7 @@
 }
 
 .date h2{
-    font-family: 'Inter', sans-serif;
+    font-family: $primary-font;
     opacity: .3;
     font-size: 16px;
 }
@@ -42,11 +46,11 @@
 }
 
 .content h1{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: $secondary-font;
     font-size: 20px;
 }
 
 .content h2{
-    font-family: second;
+    font-family: $secondary-font;
     opacity: .3;
 }
