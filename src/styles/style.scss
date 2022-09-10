@@ -26,31 +26,30 @@ $secondary-font: 'Lexend Deca', sans-serif;
 .date{
     display: flex;
     justify-content: space-between;
+
+
+    h2{
+        font-family: $primary-font;
+        opacity: .3;
+        font-size: 16px;
+    }
     
 }
 
-.date h2{
-    font-family: $primary-font;
-    opacity: .3;
-    font-size: 16px;
-}
+
 
 .content{
     margin-left: auto;
     margin-right: auto;
-}
 
-.content h1, 
-.content h2{
-    margin-top: 20px;
-}
-
-.content h1{
-    font-family: $secondary-font;
-    font-size: 20px;
-}
-
-.content h2{
-    font-family: $secondary-font;
-    opacity: .3;
+    h2{
+        font-family: $secondary-font;
+        opacity: .3;
+        margin-top: 20px;
+    }
+    h1{
+        font-family: $secondary-font;
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
